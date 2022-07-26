@@ -1,13 +1,10 @@
-/*Reset*/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*Default*/
 :root {
-  --cor1: #73553C;
   --cor2: #8C1F1F;
   --cor3: #731A1A;
   --cor4: #401313;
@@ -48,10 +45,6 @@ header {
   padding: .5rem 1.5rem;
   font-size: 1.6rem;
   color: var(--white);
-}
-
-.search::placeholder {
-  color: var(--cor1);
 }
 
 .search:focus {
