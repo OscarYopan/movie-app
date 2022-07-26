@@ -16,6 +16,8 @@ async function getMovies(url) {
     showMovies(data.results)
 }
 
+// Create Movie Box
+
 function showMovies(movies) {
     main.innerHTML = ''
 
@@ -40,6 +42,8 @@ function showMovies(movies) {
     })
 }
 
+//Class de Color based in the rate
+
 function getClassByRate(vote) {
     if(vote >= 8) {
         return 'green'
@@ -49,6 +53,8 @@ function getClassByRate(vote) {
         return 'red'
     }
 }
+
+//Start the Search event
 
 form.addEventListener('submit', (e) => {
     e.preventDefault()
