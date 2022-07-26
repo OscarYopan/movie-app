@@ -106,4 +106,10 @@ main {
   padding: 2rem;
   max-height: 100%;
   transform: translateY(101%);
+  transition: transform .3s linear;
+  font-size: 1.2rem;
+}
+
+.movie:hover .overview {
+  transform: translateY(0);
 }
