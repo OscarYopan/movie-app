@@ -134,3 +134,15 @@ main {
 .menu:hover {
   transform: scale(1.2);
 }
+
+.menu.home.close {
+  /* z-index: -5; */
+  /* opacity: 0; */
+  bottom: 8.5rem;
+}
+
+.menu.up.close {
+  /* z-index: -10; */
+  /* opacity: 0; */
+  bottom: 15rem;
+}
