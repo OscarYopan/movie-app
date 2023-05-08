@@ -22,6 +22,11 @@ body{
   position: relative;
 }
 
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 header {
   background-color: var(--cor3);
   padding: 1rem;
