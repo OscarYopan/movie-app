@@ -85,5 +85,17 @@ const upArrowIcon = document.querySelector('.up')
 menuIcon.addEventListener('click', () => {
   homeIcon.classList.toggle('close')
   upArrowIcon.classList.toggle('close')
-  console.log('Menu Clicado')
+  console.log('Menu Clicked')
+})
+
+homeIcon.addEventListener('click', () => {
+  homeIcon.classList.add('close')
+  upArrowIcon.classList.add('close')
+  console.log('Home Icon Clicked')
+})
+
+upArrowIcon.addEventListener('click', () => {
+  homeIcon.classList.add('close')
+  upArrowIcon.classList.add('close')
+  console.log('Up Arrow Icon Clicked')
 })

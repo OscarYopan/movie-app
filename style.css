@@ -143,7 +143,7 @@ main {
 .menu.home {
   opacity: 100;
   z-index: 1;
-  bottom: 8.5rem
+  bottom: 8.5rem;
 }
 
 .menu.home.close {
@@ -155,7 +155,7 @@ main {
 .menu.up {
   opacity: 100;
   z-index: 1;
-  bottom: 15rem
+  bottom: 15rem;
 }
 
 .menu.up.close {
