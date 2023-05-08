@@ -80,3 +80,10 @@ form.addEventListener('submit', e => {
 
 const menuIcon = document.querySelector('.menu-icon')
 const homeIcon = document.querySelector('.home')
+const upArrowIcon = document.querySelector('.up')
+
+menuIcon.addEventListener('click', () => {
+  homeIcon.classList.toggle('close')
+  upArrowIcon.classList.toggle('close')
+  console.log('Menu Clicado')
+})

@@ -135,14 +135,26 @@ main {
   transform: scale(1.2);
 }
 
+.menu.home {
+  opacity: 100;
+  z-index: 1;
+  bottom: 8.5rem
+}
+
 .menu.home.close {
-  /* z-index: -5; */
-  /* opacity: 0; */
-  bottom: 8.5rem;
+  z-index: -5;
+  opacity: 0;
+  bottom: 2rem;
+}
+
+.menu.up {
+  opacity: 100;
+  z-index: 1;
+  bottom: 15rem
 }
 
 .menu.up.close {
-  /* z-index: -10; */
-  /* opacity: 0; */
-  bottom: 15rem;
+  z-index: -10;
+  opacity: 0;
+  bottom: 2rem;
 }
